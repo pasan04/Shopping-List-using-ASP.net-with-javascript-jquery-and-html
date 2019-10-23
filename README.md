@@ -12,5 +12,6 @@ After choosing the list name,then user can add the items to the website and upda
 
 This is an initial project of mine whcih is used to get familiar with the .net applications and also jquery.
 
+The website is build using the C# framework .net and it is mainly focus on add new items to the shopping list. The website is mainly interact with the users with the main features in it. So you can contribute to the website by fork this repository, then clone the repository and make necessary changes to the website and then give a pull request !!!
 
 
