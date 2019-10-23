@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lakshan Wijenayaka</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="createListDiv">
+        <h1>Simple Shopping List</h1>
+        <input id ="shoppingListName" type="text" placeholder="New List" />
+        <button onclick="createShoppingList()">Create</button>
+    </div>
+
+    <div id="shoppingListDiv"style="display:none;">
+        <h1 id="shoppingListTitle">New List</h1>
+        <input id ="newItemName"type="text" placeholder="New Item" />
+        <button onclick="addItem()">Add</button>
+        <ul id="shoppingListItems">
+            <li>Salad<button>D</button><button>C</button></li>
+            <li>Milk<button>D</button><button>C</button></li>
+            <li>Tomatoes<button>D</button><button>C</button></li>
+        </ul>
+
+    </div>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="javascript/JavaScript.js"></script>
+</body>
+</html>
